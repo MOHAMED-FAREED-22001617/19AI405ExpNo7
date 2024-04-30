@@ -1,11 +1,10 @@
 <h1>ExpNo 7 : Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
-<h3>Name: Saravanan N</h3>
-<h3>Register Number/Staff Id: TSML006</h3>
-
-# Aim: 
-
+<h3>Name: MOHAMED FAREED F</h3>
+<h3>Register Number: 212222230082</h3>
+<H3>Aim:</H3>
+<p>
 Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game
-
+</p>
 <h1>GOALS of Alpha-Beta Pruning in MiniMax Search Algorithm</h1>
 
 <h3>Improve the decision-making efficiency of the computer player by reducing the number of evaluated nodes in the game tree.</h3>
@@ -23,10 +22,10 @@ recursively evaluates all possible moves and their potential outcomes, creating 
 Alpha–Beta (𝛼−𝛽) algorithm is actually an improved minimax using a heuristic. It stops evaluating a move when it makes sure that it’s worse than a previously examined move. Such moves need not to be evaluated further.
 
 When added to a simple minimax algorithm, it gives the same output but cuts off certain branches that can’t possibly affect the final decision — dramatically improving the performance
-
-## PROGRAM :
+<h1>PROGRAM</h1>
 
 ```
+
 import time
 
 class Game:
@@ -210,7 +209,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
+ ```
 <hr>
 <h2>Sample Input and Output:</h2>
 
@@ -220,6 +219,5 @@ if __name__ == "__main__":
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/440797bd-53cb-49c1-b18d-89776864c3e7)
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/81575a16-26b2-46f1-a8ac-27c9ed0a0fe5)
 
-## RESULT :
-
-Thus,Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game was  done successfully.
+## RESULT:
+Thus,Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game was done successfully.
